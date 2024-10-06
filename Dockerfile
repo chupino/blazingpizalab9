@@ -15,6 +15,7 @@ RUN rm -rf pizza.db
 COPY OrderController.cs .
 COPY OrderState.cs .
 COPY App.razor .
+COPY PizzaStoreContext.cs .
 COPY MainLayout.razor ./Shared/
 COPY _Host.cshtml ./Pages/
 COPY Checkout.razor ./Pages/
