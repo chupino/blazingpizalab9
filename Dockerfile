@@ -24,4 +24,4 @@ COPY MyOrders.razor ./Pages/
 COPY OrderDetail.razor ./Pages/
 
 RUN dotnet restore
-RUN dotnet run --urls="http://0.0.0.0:80"
+CMD dotnet run --urls="http://0.0.0.0:80"
